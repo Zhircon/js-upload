@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Subida de archivos con barra de progreso</title>
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <script defer src="upload.js"></script>
+</head>
+<body>
+    <div class="wrapper"> 
+        <div class="header">Subida de archivos</div>
+        <form action="">
+            <input type="file" class="file-input" name="file" hidden>
+            <i class="fas fa-cloud-upload-alt"></i>
+            <p>Selecciones el archivo a subir</p>
+        </form>
+        <div class="progreso-area"></div>
+        <div class="subido-area"></div>
+    </div>
+</body>
+</html>
